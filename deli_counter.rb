@@ -9,4 +9,5 @@ end
 
 def take_a_number(deli, guest)
   deli << guest
+  puts "Welcome, #{guest}. You are #{deli.count} in line."
 end
