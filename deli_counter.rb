@@ -11,3 +11,5 @@ def take_a_number(deli, guest)
   deli << guest
   puts "Welcome, #{guest}. You are number #{deli.count} in line."
 end
+
+def now_serving(deli)
