@@ -6,3 +6,6 @@ def line(deli)
     puts "The line is currently: " + guests.join(" ")
   end
 end
+
+def take_a_number(deli, guest)
+end
