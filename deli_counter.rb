@@ -1,6 +1,7 @@
 def line(deli)
-  case deli.count
-  when 0
+  if deli.count == 0
     puts "The line is currently empty."
-  end
+  else
+    guests = deli.each_with_index.map {|e, i| "#{i + 1}. e"}
+    puts "The line is currently: " + guests.join(" ")
 end
